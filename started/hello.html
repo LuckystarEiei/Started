@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script type="text/javascript" src="scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="scripts/vue_2.5.17.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            new Vue({
+                el: '#app',
+                data: {
+                    message: 'Hello Vue.js!'
+                }
+            })
+
+
+        });
+    </script>
+</head>
+<body>
+    <div id="app">
+        {{ message }}
+    </div>
+</body>
+</html>
